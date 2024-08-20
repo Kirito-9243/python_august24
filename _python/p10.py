@@ -1,4 +1,4 @@
-# Problem statement: Check if the Alphabet is oval or consonant
+# Problem statement: Check if the Alphabet is vowel or consonant
 
 alphabet = input("Enter any Alphabet:")
 alphabet_l = alphabet.lower()
