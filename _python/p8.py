@@ -2,4 +2,4 @@
 
 year = int(input("Enter any year:"))
 if year % 4 == 0 or year % 400 == 0:
-    print("The User given year is a leap year!!")
+    print(year,"is a leap year!!")
