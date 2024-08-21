@@ -16,5 +16,5 @@ elif student_avg in range(75,91):
 elif student_avg in range(91,101):
     print("Students results is: Distinction")
 else:
-        exit("INVALID INPUT!!")
+        exit("INVALID INPUT!!")     
   
