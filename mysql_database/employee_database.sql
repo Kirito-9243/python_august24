@@ -1,0 +1,18 @@
+create table employees(id int primary key auto_increment,name varchar(50) not null ,designation varchar(40) not null,technology varchar(30) not null, phone_num bigint unique , comission int ,salary float default 0 ,years_of_exp int);
+ insert employees(name,designation,technology,phone_num,comission,salary,years_of_exp) values("Ishwar","CEO","Game Dev","9988661125","50000","500000","9");
+  insert employees(name,designation,technology,phone_num,comission,salary,years_of_exp) values("Nitish","HR","Techlead","9898675120","45000","320000","7");
+ select * from employees;
+insert employees(name,designation,technology,phone_num,comission,salary,years_of_exp) values("Anirudh","Developer","Web stacks","9341715842","45000","300000","7");
+ insert employees(name,designation,technology,phone_num,comission,salary,years_of_exp) values("Vinay","Developer","C++ Language","9544176842","45000","260000","5");
+ insert employees(name,designation,technology,phone_num,comission,salary,years_of_exp) values("Siddharth","Projectlead","Project Architect","8875247190","40000","250000","7");
+insert employees(name,designation,technology,phone_num,comission,salary,years_of_exp) values("Ishan","Cyber Security","Python Language","8954824759","40000","280000","6");
+insert employees(name,designation,technology,phone_num,comission,salary,years_of_exp) values("Ganavi","Treasury","Finance","7628584991","45000","300000","8");
+insert employees(name,designation,technology,phone_num,comission,salary,years_of_exp) values("Madilyn","Artist","Prof.Musician","8614584651","45000","100000","10");
+insert employees(name,designation,technology,phone_num,comission,salary,years_of_exp) values("Weeknd","GOAT","Depression Counciler","0934751688","50000","300000","12");
+select * from employees;
+ALTER TABLE employees modify comission float;
+delete from employees where designation = "Designer";
+delete from employees where id = 8;
+select * from employees;
+ select * from employees where id = 9;
+ select * from employees where designation = "HR";
