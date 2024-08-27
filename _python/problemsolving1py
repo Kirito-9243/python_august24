@@ -1,0 +1,16 @@
+numofcust = int(input("Enter the customers whose bills are selected:"))
+bill = []
+for i in range(0,numofcust):
+    bill.append(int(input(f"Enter bill amounts of {i+1} customers:")))
+count = 0
+
+
+def pre_square(num):
+    squareroot = int(num**0.5)
+    return  squareroot**2 == num
+
+for i in bill:
+    if pre_square(i):
+        count += 1
+print("The number of customers that'll be gettting a discount",count)
+
